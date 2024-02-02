@@ -9,6 +9,7 @@ body {
     /*Changed the color of texts from grey to black to add better contast between background and text*/
     background-color: #FFFFFF;
     /*Changed the color of texts from grey to white to add better contast between background and text*/
+
     border: solid 5px;
     margin: 100px;
 }
@@ -22,6 +23,20 @@ header {
 }
 
 h1 {
+
+    font-size: 3em;
+    /* Small font size for headings */
+    /*chnaged font size to be bigger to improve readability*/
+}
+
+a {
+    color: #000000;
+    /* Poor link contrast */
+    /*changed color of link from gray to black to improve contracts and percivability*/
+}
+
+a:hover {
+    color: #0000FF;
     font-size: 3em;
     /* Small font size for headings */
     /*chnaged font size to be bigger to improve readability*/
@@ -38,6 +53,7 @@ a:hover {
     /* Even lower contrast on hover */
 }
 
+
 form {
     color: #000;
 }
@@ -53,6 +69,7 @@ button {
     font-size: 1em;
     /* Small font size */
     /*made the font size bigger but i don't think the button is on my page*/
+
 }
 
 /* Missing focus styles for interactive elements */
