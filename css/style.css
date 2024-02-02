@@ -1,32 +1,32 @@
 /* NOTE!!! Add comments at the end of each line of code you add or change,
  indicate why you made the addition/change and/or the specific accessibility
- issue you are trying to address */ 
+ issue you are trying to address */
 
 body {
     font-family: Arial, sans-serif;
-    color: #999; /* Poor contrast */
-    background-color: #ccc;
-	border: solid 5px;
-	margin: 100px;
+    color: #000000; /* Poor contrast */ /*Changed the color of texts from grey to black to add better contast between background and text*/
+    background-color: #FFFFFF; /*Changed the color of texts from grey to white to add better contast between background and text*/
+    border: solid 5px;
+    margin: 100px;
 }
 
 header {
-	text-align: center;
-	background-color: #333;
-	color: white;
-	padding: 10px 0;
+    text-align: center;
+    background-color: #7f7f7f; /*changed grey color to a lighter grey so as to improve "home", "contact" and "catalog" readability */
+    color: white;
+    padding: 10px 0;
 }
 h1 {
-    font-size: 1em; /* Small font size for headings */
+    font-size: 3em; /* Small font size for headings *//*chnaged font size to be bigger to improve readability*/
 }
 
 a {
-    color: #999; /* Poor link contrast */
+    color: #000000; /* Poor link contrast */ /*changed color of link from gray to black to improve contracts and percivability*/
 }
 
-a:hover {
-    color: #ccc; /* Even lower contrast on hover */
-}
+    a:hover {
+        color: #0000FF; /* Even lower contrast on hover */
+    }
 
 form {
     color: #000;
@@ -40,7 +40,7 @@ input[type="submit"] {
 
 button {
     cursor: pointer;
-    font-size: 0.8em; /* Small font size */
+    font-size: 1em; /* Small font size */ /*made the font size bigger but i don't think the button is on my page*/
 }
 
 /* Missing focus styles for interactive elements */
